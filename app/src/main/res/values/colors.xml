@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_200_50">#80BB86FC</color>
+    <color name="purple_200_25">#40BB86FC</color>
+    <color name="purple_200_10">#1aBB86FC</color>
+
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_500_10">#1a6200EE</color>
+
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="orange_theme">#ff5b00</color>
+    <color name="orange_theme_90">#e6ff5b00</color>
+    <color name="orange_theme_50">#80ff5b00</color>
+    <color name="orange_theme_25">#40ff5b00</color>
+    <color name="orange_theme_20">#33ff5b00</color>
+    <color name="orange_theme_10">#1aff5b00</color>
+
+    <color name="aqua_blue">#64ffff</color>
+
+    <color name="off_white_eee">#eeeeee</color>
+    <color name="off_white_eee_50">#80eeeeee</color>
+    <color name="off_white_ddd">#dddddd</color>
+    <color name="off_white_999">#999999</color>
+    <color name="white_90">#e6FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_10">#1aFFFFFF</color>
+
+    <color name="green_whatsapp">#25D366</color>
+    <color name="green">#00ff00</color>
+    <color name="emerald_green">#50C878</color>
+    <color name="celtic_green">#018749</color>
+    <color name="celtic_green_10">#1a018749</color>
+
+    <color name="blue">#0000ff</color>
+    <color name="blue_90">#e60000ff</color>
+    <color name="blue_50">#800000ff</color>
+    <color name="blue_20">#330000ff</color>
+    <color name="blue_10">#1a0000ff</color>
+
+    <color name="blue_solitude">#ebf1ff</color>
+    <color name="blue_google">#1a0dab</color>
+    <color name="blue_google_50">#801a0dab</color>
+    <color name="blue_google_20">#331a0dab</color>
+    <color name="blue_google_10">#1a1a0dab</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="gray">#999999</color>
+
+    <color name="yellow">#FFFF00</color>
+    <color name="mcdonalds_yellow">#FFC72C</color>
+    <color name="mcdonalds_yellow_50">#80FFC72C</color>
+    <color name="mcdonalds_yellow_20">#33FFC72C</color>
+    <color name="mcdonalds_yellow_10">#1aFFC72C</color>
+
+    <color name="off_black_666">#FF666666</color>
+    <color name="off_black_444">#444444</color>
+    <color name="off_black_333">#333333</color>
+    <color name="off_black_222">#222222</color>
+    <color name="off_black_111">#111111</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_10">#1a000000</color>
+
+    <color name="red">#FF0000</color>
+
+    <color name="voilet">#693460</color>
+
+    <color name="primary">#293875</color>
+    <color name="secondary">#199DCC</color>
+
+
+</resources>

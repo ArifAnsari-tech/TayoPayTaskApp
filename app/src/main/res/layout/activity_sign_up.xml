@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbarSize="0dp"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.SignUpActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign in to TayoPay"
+                android:textSize="30sp"
+                android:paddingHorizontal="16dp"
+                android:paddingTop="48dp"
+                android:textStyle="bold"
+                android:textColor="@color/primary"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your details to create an account"
+                android:paddingHorizontal="16dp"
+                android:paddingTop="2dp"
+                android:textSize="18sp"
+                android:textColor="@color/secondary"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxStrokeWidth="1.5dp"
+                app:boxStrokeColor="#A3A0A0"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="20dp"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="First name "
+                    android:id="@+id/fName"
+                    android:textColorHint="#5A5959"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxStrokeWidth="1.5dp"
+                app:boxStrokeColor="#A3A0A0"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="6dp"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Middle name "
+                    android:id="@+id/mName"
+                    android:textColorHint="#5A5959"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxStrokeWidth="1.5dp"
+                app:boxStrokeColor="#A3A0A0"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="6dp"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Last Name "
+                    android:id="@+id/lName"
+                    android:textColorHint="#5A5959"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxStrokeWidth="1.5dp"
+                app:boxStrokeColor="#A3A0A0"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="6dp"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email "
+                    android:id="@+id/sEmail"
+                    android:textColorHint="#5A5959"
+                    android:inputType="textEmailAddress"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                app:cardCornerRadius="12dp"
+                app:cardMaxElevation="4dp"
+                app:strokeWidth="1.5dp"
+                app:strokeColor="#A3A0A0"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@color/white">
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+27"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:paddingStart="16dp"/>
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="30dp"
+                        android:background="#A3A0A0"
+                        android:layout_marginHorizontal="8dp"/>
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="0 00 00 00 00"
+                        android:background="@color/white"
+                        android:id="@+id/mobileNo"
+                        android:padding="4dp"
+                        android:maxLength="9"
+                        android:inputType="number"
+                        android:textColor="@color/black"/>
+
+                    
+                </LinearLayout>
+                
+                
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                app:cardCornerRadius="12dp"
+                app:cardMaxElevation="4dp"
+                app:strokeWidth="1.5dp"
+                app:strokeColor="#A3A0A0"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="8dp"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@color/white">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:paddingHorizontal="16dp"
+                        android:hint="Gender"
+                        android:editable="false"
+                        android:id="@+id/genderTv"
+                        android:textColorHint="#5A5959"
+                        android:textColor="@color/black">
+
+                    </EditText>
+
+                    <ImageView
+                        android:onClick="showGenderPopup"
+                        android:id="@+id/genderFiled"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:src="@drawable/arrow_forward"
+                        android:layout_marginEnd="16dp"/>
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                app:cardCornerRadius="12dp"
+                app:cardMaxElevation="4dp"
+                app:strokeWidth="1.5dp"
+                app:strokeColor="#A3A0A0"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="8dp"
+                >
+                <LinearLayout
+                    android:id="@+id/dobFiled"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@color/white">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:paddingHorizontal="16dp"
+                        android:hint="Date of birth"
+                        android:id="@+id/dobTv"
+                        android:editable="false"
+                        android:inputType="date"
+                        android:textColorHint="#5A5959"
+                        android:textColor="@color/black">
+
+                    </EditText>
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/calender"
+                        android:layout_marginEnd="16dp"
+                        android:id="@+id/calBtn"/>
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                app:boxCornerRadiusBottomStart="12dp"
+                app:boxCornerRadiusBottomEnd="12dp"
+                app:boxCornerRadiusTopStart="12dp"
+                app:boxCornerRadiusTopEnd="12dp"
+                app:boxStrokeWidth="1.5dp"
+                app:boxStrokeColor="#A3A0A0"
+                app:passwordToggleEnabled="true"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="8dp"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:id="@+id/sgPass"
+                    android:textColorHint="#5A5959"
+                    android:inputType="textPassword"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/sgBtn"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginVertical="8dp"
+                android:text="Continue"
+                android:backgroundTint="@color/primary"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By clicking on continue, I agree to TayoPay"
+                android:paddingHorizontal="18dp"
+                android:textSize="16sp"
+                android:textColor="@color/secondary"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="8dp"
+                >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Terms"
+                   android:textColor="@color/black"
+                   android:paddingStart="18dp"/>
+
+                <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text=" ＆"
+                   android:textColor="@color/secondary"/>
+
+                <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text=" Privacy Policy"
+                   android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send money"
+        android:layout_marginTop="48dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#199DCC"/>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="with just a few tabs"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/secondary"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Get Started"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="16dp"
+        android:textSize="18sp"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        android:id="@+id/srtBtn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="I have an account"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="16dp"
+        android:textSize="18sp"
+        android:backgroundTint="#A6CFDD"
+        android:textColor="@color/white"
+        android:id="@+id/logBtn"/>
+
+
+
+
+
+</LinearLayout>
